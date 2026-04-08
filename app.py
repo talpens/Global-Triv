@@ -4,7 +4,7 @@ import json
 
 # 1. הגדרות API ודגם (החלף את YOUR_API_KEY במפתח שלך)
 genai.configure(api_key="AIzaSyBVNZGeegSIzRiR-LSisj_M7jO_u5UZTag")
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # 2. עיצוב הממשק (סטייל רטרו/חלל)
 st.set_page_config(page_title="טריוויה גלובלית ומקומית", layout="centered")
